@@ -1,0 +1,27 @@
+# Standard Ignores
+node_modules/
+.vscode/
+.idea/
+.env
+.env.local
+.env.*.local
+
+# OS Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Antigravity/AI Artifacts
+.gemini/
+implementation_plan.md
+task.md
+walkthrough.md
+
+# Logs and Temporaries
+*.tmp
+*.log
+update.txt
+
+# Astro
+.astro/
+dist/

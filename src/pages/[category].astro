@@ -1,0 +1,65 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+	return [
+		{ params: { category: 'food' } },
+		{ params: { category: 'travel' } },
+		{ params: { category: 'informal-experience' } },
+	];
+}
+
+const { category } = Astro.params;
+const posts: CollectionEntry<'blog'>[] = await getCollection('blog', ({ data }) => data.category === category);
+
+// Sort posts by date (descending)
+posts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const titles: Record<string, string> = {
+	'food': 'Food',
+	'travel': 'Travel',
+	'informal-experience': 'Informal Experience'
+};
+
+const descs: Record<string, string> = {
+	'food': 'Recipes, street food escapades, honest reviews, and the cravings that keep me going.',
+	'travel': 'Mountains, coastlines, hidden villages, and the beautiful chaos of being somewhere new.',
+	'informal-experience': 'Raw moments, casual reflections, first-time adventures, and everything in between — life, unscripted.'
+};
+---
+
+<Layout title={`${titles[category as string]} — Sanjana Unfiltered`}>
+	<section class="page-hero">
+		<div class="container">
+			<span class="hero__tag">
+				<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+					stroke="currentColor" stroke-width="2.5">
+					<polygon
+						points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+				</svg>
+				Category
+			</span>
+			<h1 class="page-hero__title">{titles[category as keyof typeof titles]}</h1>
+			<p class="page-hero__desc">{descs[category as keyof typeof descs]}</p>
+		</div>
+	</section>
+
+	<section class="posts-list-section">
+		<div class="container">
+			<div class="posts-list">
+				{posts.map(post => (
+					<a href={`/${category}/${post.id}`} class="post-list-item reveal">
+						<div class="post-list-item__main">
+							{post.data.image && <img src={post.data.image} alt="Thumbnail" class="post-list-item__image" />}
+							<h2 class="post-list-item__title">{post.data.title}</h2>
+						</div>
+						<div class="post-list-item__meta">
+							<span class="post-list-item__date">{post.data.date}</span>
+						</div>
+					</a>
+				))}
+			</div>
+		</div>
+	</section>
+</Layout>

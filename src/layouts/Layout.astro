@@ -1,0 +1,29 @@
+---
+import { ClientRouter } from 'astro:transitions';
+import Navbar from '../components/Navbar.astro';
+import '../styles/global.css';
+
+const { title } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<ClientRouter />
+	</head>
+	<body>
+		<Navbar />
+		<main>
+			<slot />
+		</main>
+		<script src="../scripts/main.ts"></script>
+	</body>
+</html>
+
+<style is:global>
+	/* Global overrides if necessary */
+</style>
