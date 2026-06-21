@@ -2,7 +2,7 @@
 
 I’ll be the first to admit: I never used to be someone who ate non-veg for breakfast. The very idea of it felt a bit too heavy for the first meal of the day. But then, I discovered **Tegu Mess**, and everything changed.
 
-After having breakfast here just once, my morning routine was completely disrupted in the best way possible. Now, I find myself craving their perfect desi non-veg cuisine at least once a week!
+After having breakfast here just once, my morning routine was completely disrupted in the best way possible. Now, I find myself craving their perfect desi non-veg cuisine at least once a week!!
 
 ### A Menu That Hits the Spot
 
