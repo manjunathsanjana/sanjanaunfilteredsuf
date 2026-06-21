@@ -1,10 +1,9 @@
-## title: "Breakfast Reimagined: Finding the Perfect Desi Non-Veg at Tegu Mess"
-
-## date: "June 21, 2026"
-
-## category: "food"
-
-## image: "/photos/tegumess/tegumess.jpg
+---
+title: "Breakfast Reimagined: Finding the Perfect Desi Non-Veg at Tegu Mess"
+date: "June 21, 2026"
+category: "food"
+image: "/photos/tegumess/tegumess.jpeg"
+---
 
 I’ll be the first to admit: I never used to be someone who ate non-veg for breakfast. The very idea of it felt a bit too heavy for the first meal of the day. But then, I discovered Tegu Mess, and everything changed.
 
