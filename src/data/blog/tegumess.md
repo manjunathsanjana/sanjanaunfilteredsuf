@@ -51,6 +51,6 @@ Value for Money: 5/5
 
 If you are looking for an authentic, unpretentious, and mouth-watering start to your day, do yourself a favor and visit Tegu Mess. Just be warned: your breakfast cravings might never be the same again!
 
-![Tegu Mess](/photos/tegumess/t1.jpg)
-![Tegu Mess](/photos/tegumess/t2.jpg)
-![Tegu Mess](/photos/tegumess/t3.jpg)
+![Tegu Mess](/photos/tegumess/t1.jpeg)
+![Tegu Mess](/photos/tegumess/t2.jpeg)
+![Tegu Mess](/photos/tegumess/t3.jpeg)
