@@ -4,14 +4,11 @@
 
 ## category: "food"
 
+## image: "/photos/tegumess/tegumess.jpg
 
 I’ll be the first to admit: I never used to be someone who ate non-veg for breakfast. The very idea of it felt a bit too heavy for the first meal of the day. But then, I discovered Tegu Mess, and everything changed.
 
-  
-
 After having breakfast here just once, my morning routine was completely disrupted in the best way possible. Now, I find myself craving their perfect desi non-veg cuisine at least once a week!
-
-  
 
 A Menu That Hits the Spot
 
@@ -45,20 +42,16 @@ In an era of Instagram-heavy cafes, Tegu Mess is a breath of fresh air.
 
 • The Price: Guess what? It is incredibly affordable. You can get standard items like dose for as low as ₹20, and the chicken dishes are incredibly budget-friendly. It is proof that the best food doesn't have to empty your wallet.
 
-  
-
 Final Verdict
 
 Food: 5/5
 
-  
-
 Ambiance: Homely and unpretentious
-
-  
 
 Value for Money: 5/5
 
-  
-
 If you are looking for an authentic, unpretentious, and mouth-watering start to your day, do yourself a favor and visit Tegu Mess. Just be warned: your breakfast cravings might never be the same again!
+
+![Tegu Mess](/photos/tegumess/t1.jpg)
+![Tegu Mess](/photos/tegumess/t2.jpg)
+![Tegu Mess](/photos/tegumess/t3.jpg)
